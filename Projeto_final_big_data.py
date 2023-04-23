@@ -16,7 +16,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # path do arquivo utilizado (dataset)
-path = 'H:/Meu Drive/Curso Americanas S.A/Módulo 6 - Big Data I/Projeto_Final_Mod-06/dataset/amazon_reviews_us_Video_Games_v1_00.tsv'
+path = 'https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz'
 
 # dataset original
 dados = spark.read.format("csv")\
