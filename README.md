@@ -15,3 +15,4 @@ Os integrantes do grupo são:
 - Luiz Fonseca ([linkedin](https://www.linkedin.com/in/luizfsf/); [GitHub](https://github.com/Luizfelz))
 - Maísa Santos ([linkedin](https://www.linkedin.com/in/maisalauriane/); [GitHub](https://github.com/MaisaLauriane))
 - Pablo Brito ([linkedin](https://www.linkedin.com/in/pablo-brito-/); [GitHub](https://github.com/pabloxD13))
+- Victor Hugo ([linkedin](https://www.linkedin.com/in/victor-hugo-chagas-9384201a2/); [Github](https://github.com/Viictor-Huugo))
