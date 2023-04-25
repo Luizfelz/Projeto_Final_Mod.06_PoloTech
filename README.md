@@ -22,8 +22,11 @@ Para executar essa aplicação localmente, basta seguir os passos abaixo:
 
 1. Faça download dos arquivos "**Projeto_final_big_data.py**" e "**requirements.txt**" em uma pasta separada;
 2. Abra seu editor de código nesta pasta e execute o comando abaixo no terminal, para instalar as bibliotecas necessárias (caso você não as tenha):
+
    > `pip install -r requirements.txt`
+
    > OBS: É recomendado a criação de um ambiente separado.
+
 3. Execute o comando abaixo para iniciar a aplicação:
    > `uvicorn Projeto_final_big_data:app --reload`
 4. Um IP será disponibilizado. Abra-o (CRTL + Botão esquerdo do mouse) assim que a execução do comando acima estiver concluída.
