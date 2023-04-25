@@ -29,16 +29,18 @@ Os integrantes do grupo são:
 
 Para executar essa aplicação localmente, basta seguir os passos abaixo:
 
-1. Faça download dos arquivos "**Projeto_final_big_data.py**" e "**requirements.txt**" em uma pasta separada;
-2. Abra seu editor de código nesta pasta e execute o comando abaixo no terminal, para instalar as bibliotecas necessárias (caso você não as tenha):
+1. Faça download dos arquivos "**Projeto_final_big_data.py**" e "**requirements.txt**", deste repositório, em uma pasta separada;
+2. Faça download do **_dataset_** através [deste link](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz) e salve-o na mesma pasta criada no passo anterior;
+3. Descompacte o arquivo do _dataset_, copie o _path_ e substitua-o na _linha 21_ do arquivo "Projeto_final_big_data.py"
+4. Abra seu editor de código nesta pasta e execute o comando abaixo no terminal, para instalar as bibliotecas necessárias (caso você não as tenha):
 
    > `pip install -r requirements.txt`
 
    > OBS: É recomendado a criação de um ambiente separado.
 
-3. Execute o comando abaixo para iniciar a aplicação:
+5. Execute o comando abaixo para iniciar a aplicação:
    > `uvicorn Projeto_final_big_data:app --reload`
-4. Um IP será disponibilizado. Abra-o (CRTL + Botão esquerdo do mouse) assim que a execução do comando acima estiver concluída.
+6. Um IP será disponibilizado. Abra-o (CRTL + Botão esquerdo do mouse) assim que a execução do comando acima estiver concluída.
    > OBS: para finalizar a execução da aplicação, basta apertar "CRTL + C" no terminal.
 
 Pronto, a aplicação deve funcionar normalmente. No entanto, é importante destacar que, à depender da máquina, a execução do comando do passo 3 pode levar alguns minutos para ser concluída, assim como as requisições feitas à aplicação quando esta estiver sendo executada.
