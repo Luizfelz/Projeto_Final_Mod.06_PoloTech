@@ -16,7 +16,9 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # path do arquivo utilizado (dataset)
-path = 'https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz'
+# faça download do arquivo no link: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
+# descompacte o arquivo e cole o path abaixo
+path = '<path do arquivo>'
 
 # dataset original
 dados = spark.read.format("csv")\
